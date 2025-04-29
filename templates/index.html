@@ -1,4 +1,4 @@
-<!-- templates/index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,78 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Diet Chatbot</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Fitness Diet Planner</h1>
-        <form id="fitness-form">
-            <label for="height">Height (cm):</label>
-            <input type="number" id="height" required>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Fitness Chatbot</h1>
+            <div class="header-buttons">
+                <button id="export-chat" title="Export Chat"><i class="fas fa-download"></i></button>
+                <button id="clear-chat" title="Clear Chat"><i class="fas fa-trash"></i></button>
+            </div>
+        </div>
 
-            <label for="weight">Weight (kg):</label>
-            <input type="number" id="weight" required>
+        <div class="quick-questions">
+            <button class="preset-question">What's a good workout for beginners?</button>
+            <button class="preset-question">Suggest a healthy meal plan</button>
+            <button class="preset-question">How to calculate BMI?</button>
+            <button class="preset-question">Tips for weight loss</button>
+        </div>
 
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" required>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
 
-            <label for="goal">Fitness Goal:</label>
-            <select id="goal" required>
-                <option value="weight_loss">Weight Loss</option>
-                <option value="muscle_gain">Muscle Gain</option>
-                <option value="maintenance">Maintenance</option>
-            </select>
+        <div id="typing-indicator" class="typing-indicator hidden">
+            <div class="typing-dot"></div>
+            <div class="typing-dot"></div>
+            <div class="typing-dot"></div>
+        </div>
 
-            <label for="meal_preference">Meal Preference:</label>
-            <select id="meal_preference" name="meal_preference" required>
-            <option value="Veg">Vegetarian</option>
-            <option value="Non-Veg">Non-Vegetarian</option>
-            </select><br><br>
-
-            <button type="submit">Get Diet Plan</button>
-        </form>
-
-        <div id="diet-plan-result">
-            <!-- The diet plan will be shown here -->
+        <div class="chat-input">
+            <form id="chat-form">
+                <button type="button" id="voice-input" title="Voice Input">
+                    <i class="fas fa-microphone"></i>
+                </button>
+                <input type="text" id="user-message" placeholder="Type your message..." required>
+                <button type="submit" title="Send Message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
         </div>
     </div>
 
-    <script>
-        document.getElementById('fitness-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            // Collect input values
-            let height = document.getElementById('height').value;
-            let weight = document.getElementById('weight').value;
-            let goal = document.getElementById('goal').value;
-            let age = document.getElementById('age').value
-            let meal_preference = document.getElementById('meal_preference').value
-
-            // Send data to the backend
-            fetch('/get_diet_plan', {
-                method: 'POST',
-                body: new URLSearchParams({
-                    'height': height,
-                    'weight': weight,
-                    'age' : age,
-                    'goal': goal,
-                    'meal_preference': meal_preference
-                    
-                }),
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.diet_plan) {
-                    let resultHtml = `<h3>Your Personalized Diet Plan:</h3><p>${data.diet_plan}</p>`;
-                    document.getElementById('diet-plan-result').innerHTML = resultHtml;
-                } else {
-                    document.getElementById('diet-plan-result').innerText = "Error: " + data.error;
-                }
-            })
-            .catch(error => console.error('Error:', error));
-        });
-    </script>
+    <script src="{{ url_for('static', filename='chat.js') }}"></script>
 </body>
 </html>

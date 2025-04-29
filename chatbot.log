@@ -1,0 +1,160 @@
+2025-04-28 21:48:02,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 21:48:02,766 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 21:48:02,791 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 21:48:07,418 - WARNING -  * Debugger is active!
+2025-04-28 21:48:07,446 - INFO -  * Debugger PIN: 329-013-522
+2025-04-28 21:48:14,119 - INFO - 127.0.0.1 - - [28/Apr/2025 21:48:14] "GET / HTTP/1.1" 200 -
+2025-04-28 21:48:14,244 - INFO - 127.0.0.1 - - [28/Apr/2025 21:48:14] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-28 21:48:20,814 - INFO - User message: What's a good workout for beginners?
+2025-04-28 21:48:20,829 - INFO - Bot response: A good workout for beginners should focus on building a foundation of strength and endurance without causing injury.  This often involves a combination of cardio and strength training, with an emphasis on proper form.  Here's a sample beginner workout routine you can follow 2-3 times per week, allowing for rest days in between:<br><br>**Warm-up (5-10 minutes):**<br><br>* Light cardio, such as jogging in place, jumping jacks, or brisk walking.<br>* Dynamic stretches, such as arm circles, leg swings, and torso twists.<br><br>**Workout (30-45 minutes):**<br><br>* **Strength Training:**<br>    * **Squats:** 3 sets of 10-12 repetitions.  Focus on proper form: keeping your back straight, chest up, and lowering your hips as if sitting in a chair.<br>    * **Push-ups (on knees if needed):** 3 sets of as many repetitions as possible (AMRAP).  Maintain a straight line from head to knees/feet.<br>    * **Rows (using resistance bands or dumbbells):** 3 sets of 10-12 repetitions per arm.  Keep your back straight and pull the weight towards your chest.<br>    * **Plank:** Hold for 30 seconds, 3 sets.  Maintain a straight line from head to heels.<br><br>* **Cardio:**<br>    * **Brisk walking or jogging:** 20-30 minutes.  Maintain a pace where you can hold a conversation.<br><br>**Cool-down (5-10 minutes):**<br><br>* Static stretches, holding each stretch for 30 seconds.  Focus on major muscle groups worked during the workout, such as quads, hamstrings, chest, and back.<br><br><br>**Important Considerations:**<br><br>* **Proper Form:**  Focus on proper form over the number of repetitions.  Watch videos and, if possible, consult a fitness professional to ensure you're using correct technique.  Incorrect form can lead to injuries.<br>* **Progressive Overload:** Gradually increase the intensity or duration of your workouts over time. This could involve increasing the weight, repetitions, or sets, or choosing more challenging cardio exercises.<br>* **Listen to Your Body:** Rest when you need to and don't push yourself too hard, especially when starting.  Pain is a signal to stop.<br>* **Consistency:** The key to success is consistency. Aim for regular workouts to see results.<br><br>This is just a sample workout, and you can adjust it based on your fitness level and preferences.  Remember to consult your doctor before starting any new workout routine.<br>
+2025-04-28 21:48:20,833 - INFO - 127.0.0.1 - - [28/Apr/2025 21:48:20] "POST /chat HTTP/1.1" 200 -
+2025-04-28 22:52:03,014 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-28 22:52:03,983 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 22:52:07,958 - WARNING -  * Debugger is active!
+2025-04-28 22:52:07,962 - INFO -  * Debugger PIN: 329-013-522
+2025-04-28 23:00:13,762 - INFO - 127.0.0.1 - - [28/Apr/2025 23:00:13] "GET / HTTP/1.1" 200 -
+2025-04-28 23:00:13,915 - INFO - 127.0.0.1 - - [28/Apr/2025 23:00:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-28 23:00:14,520 - INFO - 127.0.0.1 - - [28/Apr/2025 23:00:14] "GET / HTTP/1.1" 200 -
+2025-04-28 23:00:14,561 - INFO - 127.0.0.1 - - [28/Apr/2025 23:00:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-28 23:02:04,484 - INFO - 127.0.0.1 - - [28/Apr/2025 23:02:04] "GET / HTTP/1.1" 200 -
+2025-04-28 23:02:04,509 - INFO - 127.0.0.1 - - [28/Apr/2025 23:02:04] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-28 23:02:40,761 - INFO - User message: hello give me fitness plan
+2025-04-28 23:02:40,761 - INFO - Bot response: I need more information to create a personalized fitness plan for you.  To give you the best recommendations, please tell me:<br><br>* **What are your fitness goals?** (e.g., weight loss, muscle gain, improved endurance, increased strength, general fitness)<br>* **What is your current fitness level?** (e.g., beginner, intermediate, advanced)  Describe your current exercise routine (if any).<br>* **How many days a week can you dedicate to exercise?**<br>* **What type of exercise do you enjoy or are you willing to try?** (e.g., running, weightlifting, swimming, yoga, cycling)<br>* **Do you have any injuries or limitations I should be aware of?**<br>* **What equipment do you have access to?** (e.g., gym membership, home gym, bodyweight only)<br><br>Once I have this information, I can create a safe and effective fitness plan tailored to your needs and abilities.<br>
+2025-04-28 23:02:40,765 - INFO - 127.0.0.1 - - [28/Apr/2025 23:02:40] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:03:02,563 - INFO - User message: give me fitness plan
+2025-04-28 23:03:02,563 - INFO - Bot response: I still need some information from you to create a suitable fitness plan.  Please tell me about your goals, current fitness level, available time, exercise preferences, any limitations, and equipment access.  The more details you provide, the better I can tailor a plan for you.  For example, are you aiming for weight loss, muscle gain, or improved cardiovascular health?  What's your current activity level?  Do you prefer cardio, strength training, or a combination?<br>
+2025-04-28 23:03:02,565 - INFO - 127.0.0.1 - - [28/Apr/2025 23:03:02] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:04:17,393 - INFO - 127.0.0.1 - - [28/Apr/2025 23:04:17] "GET / HTTP/1.1" 200 -
+2025-04-28 23:04:17,424 - INFO - 127.0.0.1 - - [28/Apr/2025 23:04:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-28 23:07:33,995 - INFO - 127.0.0.1 - - [28/Apr/2025 23:07:33] "GET / HTTP/1.1" 200 -
+2025-04-28 23:07:34,026 - INFO - 127.0.0.1 - - [28/Apr/2025 23:07:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-28 23:07:34,100 - INFO - 127.0.0.1 - - [28/Apr/2025 23:07:34] "GET /static/chat.js HTTP/1.1" 200 -
+2025-04-28 23:07:38,203 - INFO - User message: hi
+2025-04-28 23:07:38,203 - INFO - Bot response: Hi there!  How can I help you with your fitness, diet, or nutrition goals today?<br>
+2025-04-28 23:07:38,204 - INFO - 127.0.0.1 - - [28/Apr/2025 23:07:38] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:08:38,632 - INFO - User message: i am 21 year old male and i do gym 4 times a week give me a workout plan to train every muscle twice a week
+2025-04-28 23:08:38,633 - INFO - Bot response: Okay, a workout plan hitting every muscle group twice a week for a 21-year-old male who already trains 4 times a week.  This plan assumes you have some experience with weight training.  Remember to always prioritize proper form to avoid injury.  Consult a healthcare professional before starting any new workout routine.<br><br>**Important Considerations:**<br><br>* **Progressive Overload:**  Gradually increase the weight, reps, or sets over time to continue challenging your muscles and promoting growth.<br>* **Rest and Recovery:**  Adequate rest is crucial for muscle growth and injury prevention.  Get 7-9 hours of sleep per night.<br>* **Nutrition:**  Fuel your workouts with a balanced diet rich in protein, carbohydrates, and healthy fats.<br>* **Warm-up:**  Always start with 5-10 minutes of light cardio and dynamic stretching.<br>* **Cool-down:**  Finish with 5-10 minutes of static stretching.<br><br><br>**Workout Plan (4 days/week):**<br><br>**(Remember to adjust weight to match your capabilities. Aim for 8-12 reps per set unless otherwise noted.)**<br><br>**Day 1: Upper Body A**<br><br>* **Chest:** Bench Press (3 sets), Incline Dumbbell Press (3 sets), Dumbbell Flyes (3 sets)<br>* **Shoulders:** Overhead Press (3 sets), Lateral Raises (3 sets), Front Raises (3 sets)<br>* **Triceps:** Close-Grip Bench Press (3 sets), Overhead Dumbbell Extensions (3 sets), Triceps Pushdowns (3 sets)<br><br><br>**Day 2: Lower Body A**<br><br>* **Quads:** Barbell Squats (3 sets), Leg Press (3 sets), Leg Extensions (3 sets)<br>* **Hamstrings:** Romanian Deadlifts (3 sets), Hamstring Curls (3 sets), Glute-Ham Raises (3 sets, if accessible)<br>* **Calves:** Standing Calf Raises (3 sets), Seated Calf Raises (3 sets)<br><br><br>**Day 3: Upper Body B**<br><br>* **Back:** Pull-ups (3 sets, or lat pulldowns if pull-ups are too difficult), Barbell Rows (3 sets), Seated Cable Rows (3 sets)<br>* **Biceps:** Barbell Curls (3 sets), Hammer Curls (3 sets), Concentration Curls (3 sets)<br>* **Forearms:** Wrist Curls (3 sets), Reverse Wrist Curls (3 sets)<br><br><br>**Day 4: Lower Body B**<br><br>* **Quads:**  Goblet Squats (3 sets),  Bulgarian Split Squats (3 sets per leg)<br>* **Hamstrings:**  Deadlifts (1-3 sets, focus on form and proper weight),  Glute Bridges (3 sets)<br>* **Calves:**  Donkey Calf Raises (3 sets)<br><br><br>**Important Note:** This is a sample plan. You may need to adjust it based on your individual needs and progress. Consider incorporating variations of exercises to target different muscle fibers.  Listen to your body and rest when needed.  If you are new to weight training, start with lighter weights and focus on proper form before increasing the weight.  Consider working with a certified personal trainer for personalized guidance and to ensure proper form.<br>
+2025-04-28 23:08:38,652 - INFO - 127.0.0.1 - - [28/Apr/2025 23:08:38] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:09:25,609 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-28 23:09:25,706 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-28 23:09:25,741 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-28 23:09:25,777 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\__init__.py', reloading
+2025-04-28 23:09:25,818 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-04-28 23:09:25,823 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\dotenv\\main.py', reloading
+2025-04-28 23:09:25,923 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\client.py', reloading
+2025-04-28 23:09:26,026 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\auth\\__init__.py', reloading
+2025-04-28 23:09:26,032 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\auth\\credentials.py', reloading
+2025-04-28 23:09:26,048 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\api_core\\__init__.py', reloading
+2025-04-28 23:09:26,053 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\api_core\\client_options.py', reloading
+2025-04-28 23:09:26,059 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\api_core\\gapic_v1\\__init__.py', reloading
+2025-04-28 23:09:26,068 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\api_core\\gapic_v1\\client_info.py', reloading
+2025-04-28 23:09:26,071 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\api_core\\client_info.py', reloading
+2025-04-28 23:09:26,869 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 23:09:31,110 - WARNING -  * Debugger is active!
+2025-04-28 23:09:31,118 - INFO -  * Debugger PIN: 329-013-522
+2025-04-28 23:17:29,770 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\generative_models.py', reloading
+2025-04-28 23:17:29,799 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\__init__.py', reloading
+2025-04-28 23:17:29,809 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\citation_types.py', reloading
+2025-04-28 23:17:29,813 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\content_types.py', reloading
+2025-04-28 23:17:29,906 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\file_types.py', reloading
+2025-04-28 23:17:29,921 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\generation_types.py', reloading
+2025-04-28 23:17:29,961 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\helper_types.py', reloading
+2025-04-28 23:17:29,969 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\model_types.py', reloading
+2025-04-28 23:17:29,988 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\permission_types.py', reloading
+2025-04-28 23:17:30,008 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\types\\safety_types.py', reloading
+2025-04-28 23:17:30,053 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\generativeai\\protos.py', reloading
+2025-04-28 23:17:30,069 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\__init__.py', reloading
+2025-04-28 23:17:30,078 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\generative_service.py', reloading
+2025-04-28 23:17:30,100 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proto\\__init__.py', reloading
+2025-04-28 23:17:30,108 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proto\\modules.py', reloading
+2025-04-28 23:17:30,161 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proto\\fields.py', reloading
+2025-04-28 23:17:30,171 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\proto\\message.py', reloading
+2025-04-28 23:17:30,215 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\content.py', reloading
+2025-04-28 23:17:30,239 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PIL\\__init__.py', reloading
+2025-04-28 23:17:30,245 - INFO -  * Detected change in 'C:\\Users\\Aakarsh Roy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PIL\\Image.py', reloading
+2025-04-28 23:17:30,878 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 23:17:34,124 - WARNING -  * Debugger is active!
+2025-04-28 23:17:34,129 - INFO -  * Debugger PIN: 329-013-522
+2025-04-28 23:19:44,361 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-28 23:19:44,362 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-28 23:19:44,979 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 23:19:48,395 - WARNING -  * Debugger is active!
+2025-04-28 23:19:48,399 - INFO -  * Debugger PIN: 329-013-522
+2025-04-28 23:19:48,451 - INFO - 127.0.0.1 - - [28/Apr/2025 23:19:48] "GET / HTTP/1.1" 200 -
+2025-04-28 23:19:48,486 - INFO - 127.0.0.1 - - [28/Apr/2025 23:19:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-28 23:19:48,496 - INFO - 127.0.0.1 - - [28/Apr/2025 23:19:48] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-04-28 23:20:01,150 - INFO - User message: hello provide me with fitness guide
+2025-04-28 23:20:01,151 - INFO - Bot response: To provide you with a helpful fitness guide, I need some more information.  Please tell me:<br><br> What are your fitness goals? (e.g., weight loss, muscle gain, improved endurance, increased strength, better overall fitness)<br> What is your current fitness level? (e.g., beginner, intermediate, advanced;  do you currently exercise regularly? If so, what kind?)<br> What is your age and gender? (This helps tailor the recommendations.)<br> Do you have any injuries or health conditions I should be aware of? (Crucial for safety and program design.)<br> How much time can you realistically dedicate to exercise each week?<br> What type of exercise do you enjoy or find accessible? (e.g., gym workouts, running, swimming, yoga, bodyweight exercises)<br><br>Once I have this information, I can create a personalized fitness guide for you, including workout plans, exercise recommendations, and considerations for proper form and recovery.<br>
+2025-04-28 23:20:01,153 - INFO - 127.0.0.1 - - [28/Apr/2025 23:20:01] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:20:18,764 - INFO - User message: I want to gain muscle
+2025-04-28 23:20:18,764 - INFO - Bot response: Gaining muscle is a fantastic goal! To help you achieve it, I need some more information, as mentioned before.  Specifically:<br><br> What is your current fitness level? (Beginner, intermediate, advanced?)  Do you currently lift weights?<br> What is your age and gender? This impacts training and recovery.<br> How many days a week can you dedicate to weight training?<br> Do you have access to a gym, or will you be working out at home? This will influence the types of exercises I recommend.<br> What is your current diet like?  Muscle growth requires sufficient protein intake.<br><br>Once I have this information, I can create a plan that includes:<br><br> A sample workout routine:  This will detail the exercises, sets, reps, and rest periods.<br> Important considerations for proper form:  This will help prevent injuries.<br> Nutritional guidance:  This will focus on protein intake and overall calorie needs.<br> A plan for progressive overload:  This is crucial for continued muscle growth.<br><br><br>Remember that consistent effort and patience are key.  Muscle growth takes time.  Let's get started by answering the questions above.<br>
+2025-04-28 23:20:18,766 - INFO - 127.0.0.1 - - [28/Apr/2025 23:20:18] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:20:41,642 - INFO - User message: I wanted to create a workout plan for two muscle a week
+2025-04-28 23:20:41,642 - INFO - Bot response: Working out two muscle groups per day can be effective, but it's important to structure it correctly to allow for adequate recovery.  To create a suitable plan, I still need some information:<br><br> What is your current fitness level? (Beginner, intermediate, advanced)  This determines the intensity and volume of the workout.<br> What two muscle groups will you focus on each day?  (e.g., Chest & Triceps, Back & Biceps, Legs & Shoulders)  A common approach is to pair opposing muscle groups (agonist and antagonist).<br> What equipment do you have access to? (Gym, home gym, bodyweight only) This will dictate the exercises you can perform.<br> How many days a week are you planning to work out?  This will influence the overall training split.<br><br><br>Once I have this information, I can provide a more tailored workout plan.  Remember, proper form is crucial to prevent injuries.  If you're unsure about proper form for any exercise, please consult a qualified fitness professional or watch instructional videos from reputable sources before attempting it.  Also, adequate rest and recovery are vital for muscle growth.<br>
+2025-04-28 23:20:41,643 - INFO - 127.0.0.1 - - [28/Apr/2025 23:20:41] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:21:31,265 - INFO - User message: I workout at gym and I go to gym 6 day a week
+2025-04-28 23:21:31,265 - INFO - Bot response: Okay, working out 6 days a week at the gym allows for a good training volume.  To create a plan focusing on two muscle groups per day, let's decide on a split.  Here are a few options, keeping in mind that you need to choose exercises appropriate for your fitness level:<br><br>Option 1 (Push/Pull/Legs):<br><br> Day 1: Chest & Triceps<br> Day 2: Back & Biceps<br> Day 3: Legs & Shoulders<br> Day 4: Rest or Active Recovery (light cardio)<br> Day 5: Chest & Triceps (different exercises than Day 1)<br> Day 6: Back & Biceps (different exercises than Day 2)<br> Day 7: Rest or Active Recovery<br><br>Option 2 (Upper/Lower Split):<br><br> Day 1: Upper Body (Chest, Back, Shoulders, Biceps, Triceps)<br> Day 2: Lower Body (Quads, Hamstrings, Calves)<br> Day 3: Upper Body (different exercises than Day 1)<br> Day 4: Lower Body (different exercises than Day 2)<br> Day 5:  Rest or Active Recovery<br> Day 6: Full Body Circuit or Focus on a weak area<br> Day 7: Rest<br><br><br>Option 3 (More focused split - requires more advanced knowledge of exercise selection):<br><br>This option allows for more specialization but requires careful planning to avoid overtraining.  You would need to choose specific exercises targeting specific muscle heads within each muscle group.<br><br><br>Before I create a detailed workout plan, please tell me:<br><br> Your current fitness level: (Beginner, intermediate, advanced)<br> Your preferred training style: (Powerlifting, bodybuilding, strength training, etc.)  This influences exercise selection and rep ranges.<br> Any previous injuries or limitations:  This is crucial for safety.<br><br><br>Once I have this information, I can provide a more personalized and effective workout plan. Remember to prioritize proper form to prevent injuries.  Start with lighter weights to master the technique before increasing the load.<br>
+2025-04-28 23:21:31,268 - INFO - 127.0.0.1 - - [28/Apr/2025 23:21:31] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:22:55,053 - INFO - User message: How to calculate BMI?
+2025-04-28 23:22:55,054 - INFO - Bot response: BMI, or Body Mass Index, is calculated using a person's weight and height.  The formula is:<br><br>BMI = weight (kg) / [height (m)]²<br><br> Weight:  Your weight should be measured in kilograms (kg).  If you know your weight in pounds (lbs), you can convert it using the following formula:  kg = lbs / 2.205<br><br> Height: Your height should be measured in meters (m). If you know your height in feet and inches, you can convert it to meters using online converters or by following these steps:<br><br>    1. Convert feet to inches:  Multiply the number of feet by 12 and add the number of inches.<br>    2. Convert inches to meters: Divide the total number of inches by 39.37.<br><br><br>Example:<br><br>Let's say a person weighs 150 lbs and is 5'8" tall.<br><br>1. Weight conversion: 150 lbs / 2.205 = 68 kg (approximately)<br>2. Height conversion: 5 feet  12 inches/foot + 8 inches = 68 inches.  68 inches / 39.37 inches/meter = 1.73 meters (approximately)<br>3. BMI calculation: 68 kg / (1.73 m)² = 22.7 kg/m² (approximately)<br><br><br>Important Considerations:<br><br>BMI is a screening tool, not a diagnostic tool.  It provides a general indication of weight status but doesn't account for factors like muscle mass, bone density, or body fat distribution.  Athletes, for example, may have a high BMI due to muscle mass, even if they are very fit.  For a more comprehensive assessment of body composition, consider methods like DEXA scans or bioelectrical impedance analysis.  Consult a healthcare professional for personalized advice.<br>
+2025-04-28 23:22:55,055 - INFO - 127.0.0.1 - - [28/Apr/2025 23:22:55] "POST /chat HTTP/1.1" 200 -
+2025-04-28 23:24:02,116 - INFO - 127.0.0.1 - - [28/Apr/2025 23:24:02] "POST /clear-session HTTP/1.1" 200 -
+2025-04-28 23:24:22,934 - INFO - User message: hi
+2025-04-28 23:24:22,934 - INFO - Bot response: Hi there!  How can I help you with your fitness or nutrition goals today?<br>
+2025-04-28 23:24:22,934 - INFO - 127.0.0.1 - - [28/Apr/2025 23:24:22] "POST /chat HTTP/1.1" 200 -
+2025-04-29 13:38:43,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-29 13:38:43,016 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 13:38:43,039 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:38:47,472 - WARNING -  * Debugger is active!
+2025-04-29 13:38:47,496 - INFO -  * Debugger PIN: 329-013-522
+2025-04-29 13:41:45,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-29 13:41:45,499 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 13:41:45,513 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:41:49,224 - WARNING -  * Debugger is active!
+2025-04-29 13:41:49,247 - INFO -  * Debugger PIN: 329-013-522
+2025-04-29 13:43:30,315 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-29 13:43:30,330 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-29 13:43:30,823 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:43:39,032 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.14:5000
+2025-04-29 13:43:39,032 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 13:43:39,052 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:43:43,312 - WARNING -  * Debugger is active!
+2025-04-29 13:43:43,321 - INFO -  * Debugger PIN: 329-013-522
+2025-04-29 13:43:44,144 - INFO - 127.0.0.1 - - [29/Apr/2025 13:43:44] "GET / HTTP/1.1" 200 -
+2025-04-29 13:43:44,452 - INFO - 127.0.0.1 - - [29/Apr/2025 13:43:44] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-29 13:43:44,538 - INFO - 127.0.0.1 - - [29/Apr/2025 13:43:44] "GET /static/chat.js HTTP/1.1" 200 -
+2025-04-29 13:43:44,602 - INFO - 127.0.0.1 - - [29/Apr/2025 13:43:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-29 13:43:49,006 - INFO - User message: hi
+2025-04-29 13:43:49,006 - INFO - Bot response: Hi there!  How can I help you achieve your fitness goals today?  Please ask me about diet, exercise, or any other fitness-related topic.<br>
+2025-04-29 13:43:49,007 - INFO - 127.0.0.1 - - [29/Apr/2025 13:43:49] "POST /chat HTTP/1.1" 200 -
+2025-04-29 13:44:56,565 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.14:5000
+2025-04-29 13:44:56,565 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 13:44:56,578 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:45:00,866 - WARNING -  * Debugger is active!
+2025-04-29 13:45:00,875 - INFO -  * Debugger PIN: 329-013-522
+2025-04-29 13:49:09,732 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\gunicorn.conf.py', reloading
+2025-04-29 13:49:11,165 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:49:15,505 - WARNING -  * Debugger is active!
+2025-04-29 13:49:15,511 - INFO -  * Debugger PIN: 329-013-522
+2025-04-29 13:49:16,542 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\gunicorn.conf.py', reloading
+2025-04-29 13:49:16,544 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\gunicorn.conf.py', reloading
+2025-04-29 13:49:16,544 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\gunicorn.conf.py', reloading
+2025-04-29 13:49:16,872 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:49:19,724 - WARNING -  * Debugger is active!
+2025-04-29 13:49:19,728 - INFO -  * Debugger PIN: 329-013-522
+2025-04-29 13:50:22,820 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-29 13:50:22,822 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-29 13:50:22,834 - INFO -  * Detected change in 'C:\\Project\\FitnessChatbot\\app.py', reloading
+2025-04-29 13:50:23,284 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-29 13:51:43,782 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-29 13:51:43,782 - INFO - [33mPress CTRL+C to quit[0m

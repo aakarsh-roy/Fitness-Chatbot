@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: fitness-chatbot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: PYTHON_PACKAGES
+        value: python3-dev
+    autoDeploy: true
+    plan: free

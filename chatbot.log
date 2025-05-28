@@ -158,3 +158,51 @@
 2025-04-29 13:51:43,782 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2025-04-29 13:51:43,782 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 14:24:33,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-29 14:24:33,253 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-29 14:24:41,692 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:41] "GET / HTTP/1.1" 200 -
+2025-04-29 14:24:42,033 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:42] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-29 14:24:42,155 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:42] "GET /static/chat.js HTTP/1.1" 200 -
+2025-04-29 14:24:45,392 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:45] "GET / HTTP/1.1" 200 -
+2025-04-29 14:24:45,735 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-29 14:24:45,736 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:45] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-04-29 14:24:54,342 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:54] "GET / HTTP/1.1" 200 -
+2025-04-29 14:24:54,691 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-29 14:24:54,692 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:54] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-04-29 14:24:55,507 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:55] "GET / HTTP/1.1" 200 -
+2025-04-29 14:24:55,847 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-29 14:24:55,848 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:55] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-04-29 14:24:57,231 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:57] "GET / HTTP/1.1" 200 -
+2025-04-29 14:24:57,584 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:57] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-04-29 14:24:57,584 - INFO - 127.0.0.1 - - [29/Apr/2025 14:24:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-29 14:25:03,672 - INFO - 127.0.0.1 - - [29/Apr/2025 14:25:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-29 14:26:32,286 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:32] "GET / HTTP/1.1" 200 -
+2025-04-29 14:26:32,534 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:32] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-29 14:26:32,645 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:32] "GET /static/chat.js HTTP/1.1" 200 -
+2025-04-29 14:26:32,706 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-29 14:26:38,319 - INFO - User message: hi
+2025-04-29 14:26:38,319 - INFO - Bot response: Hi there!  How can I help you with your fitness or nutrition goals today?<br>
+2025-04-29 14:26:38,334 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:38] "POST /chat HTTP/1.1" 200 -
+2025-04-29 14:26:42,627 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:42] "GET / HTTP/1.1" 200 -
+2025-04-29 14:26:42,975 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:42] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-04-29 14:26:42,975 - INFO - 127.0.0.1 - - [29/Apr/2025 14:26:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-29 00:05:01,391 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 00:05:01,392 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 00:05:27,371 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 00:05:27,372 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 00:10:06,758 - INFO - 127.0.0.1 - - [29/May/2025 00:10:06] "GET / HTTP/1.1" 200 -
+2025-05-29 00:10:06,903 - INFO - 127.0.0.1 - - [29/May/2025 00:10:06] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-29 00:10:07,000 - INFO - 127.0.0.1 - - [29/May/2025 00:10:07] "GET /static/chat.js HTTP/1.1" 200 -
+2025-05-29 00:10:07,085 - INFO - 127.0.0.1 - - [29/May/2025 00:10:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-29 00:10:15,731 - INFO - User message: hi
+2025-05-29 00:10:15,731 - INFO - Bot response: Hi there!  What fitness or nutrition questions can I help you with today?<br>
+2025-05-29 00:10:15,749 - INFO - 127.0.0.1 - - [29/May/2025 00:10:15] "POST /chat HTTP/1.1" 200 -
+2025-05-29 00:13:33,891 - INFO - 127.0.0.1 - - [29/May/2025 00:13:33] "GET / HTTP/1.1" 200 -
+2025-05-29 00:13:33,906 - INFO - 127.0.0.1 - - [29/May/2025 00:13:33] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-29 00:13:34,124 - INFO - 127.0.0.1 - - [29/May/2025 00:13:34] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-05-29 00:13:58,222 - INFO - 127.0.0.1 - - [29/May/2025 00:13:58] "GET / HTTP/1.1" 200 -
+2025-05-29 00:13:58,235 - INFO - 127.0.0.1 - - [29/May/2025 00:13:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-29 00:13:58,472 - INFO - 127.0.0.1 - - [29/May/2025 00:13:58] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -

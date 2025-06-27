@@ -98,7 +98,7 @@ def rate_limit(f):
         return f(*args, **kwargs)
     return decorated_function
 
-# Create the generative model
+
 try:
     model = genai.GenerativeModel(
         model_name="gemini-1.5-flash",

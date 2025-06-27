@@ -206,3 +206,82 @@
 2025-05-29 00:13:58,222 - INFO - 127.0.0.1 - - [29/May/2025 00:13:58] "GET / HTTP/1.1" 200 -
 2025-05-29 00:13:58,235 - INFO - 127.0.0.1 - - [29/May/2025 00:13:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2025-05-29 00:13:58,472 - INFO - 127.0.0.1 - - [29/May/2025 00:13:58] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-05-29 15:34:30,409 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 15:34:30,410 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 15:34:30,413 - INFO -  * Restarting with stat
+2025-05-29 15:34:33,262 - WARNING -  * Debugger is active!
+2025-05-29 15:34:33,268 - INFO -  * Debugger PIN: 121-511-281
+2025-05-29 15:34:48,547 - INFO - 127.0.0.1 - - [29/May/2025 15:34:48] "GET / HTTP/1.1" 200 -
+2025-05-29 15:34:48,571 - INFO - 127.0.0.1 - - [29/May/2025 15:34:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-29 15:34:48,782 - INFO - 127.0.0.1 - - [29/May/2025 15:34:48] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-05-29 15:34:48,863 - INFO - 127.0.0.1 - - [29/May/2025 15:34:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-29 15:34:51,624 - INFO - 127.0.0.1 - - [29/May/2025 15:34:51] "GET / HTTP/1.1" 200 -
+2025-05-29 15:34:51,935 - INFO - 127.0.0.1 - - [29/May/2025 15:34:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-29 15:34:51,935 - INFO - 127.0.0.1 - - [29/May/2025 15:34:51] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-05-29 15:34:52,858 - INFO - 127.0.0.1 - - [29/May/2025 15:34:52] "GET / HTTP/1.1" 200 -
+2025-05-29 15:34:53,181 - INFO - 127.0.0.1 - - [29/May/2025 15:34:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-29 15:34:53,181 - INFO - 127.0.0.1 - - [29/May/2025 15:34:53] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-05-29 15:35:00,425 - INFO - User message: Suggest a healthy meal plan
+2025-05-29 15:35:00,426 - INFO - Bot response: To suggest a healthy meal plan, I need a little more information.  Please tell me:<br><br> Your fitness goals: Are you trying to lose weight, gain muscle, maintain your current weight, or something else?<br> Your dietary restrictions or preferences: Are you vegetarian, vegan, gluten-free, dairy-free, or do you have any allergies?  Do you prefer certain types of cuisine?<br> Your activity level: How many days a week do you exercise, and for how long?<br> Your calorie needs (if known):  Do you have an estimate of your daily calorie needs?  (You can use online calculators for this, but it's not essential for a general plan).<br><br>Once I have this information, I can create a more personalized and effective meal plan for you.  For now, here's a sample healthy meal plan that's a good starting point for many people:<br><br><br>Sample Healthy Meal Plan (approximately 1500-1800 calories, adjust portions based on your needs):<br><br> Breakfast (approx. 350-400 calories): Oatmeal with berries and nuts, or Greek yogurt with fruit and granola.  Alternatively, a whole-wheat toast with avocado and a poached egg.<br> Lunch (approx. 450-500 calories): Large salad with grilled chicken or fish, or a lentil soup with whole-grain bread.  A quinoa salad with vegetables and chickpeas is another good option.<br> Dinner (approx. 500-600 calories): Baked salmon with roasted vegetables, or chicken stir-fry with brown rice.  Vegetarian options could include a lentil shepherd's pie or a vegetable curry with brown rice.<br> Snacks (approx. 200 calories total):  A handful of almonds, a piece of fruit, or a small container of Greek yogurt.<br><br><br>Important Disclaimer: This is a sample meal plan and may not be suitable for everyone.  Individual calorie needs vary greatly depending on factors like age, sex, activity level, and body composition.  Consult a registered dietitian or nutritionist for personalized dietary advice.<br>
+2025-05-29 15:35:00,429 - INFO - 127.0.0.1 - - [29/May/2025 15:35:00] "POST /chat HTTP/1.1" 200 -
+2025-05-29 15:38:20,169 - INFO -  * Detected change in 'D:\\Project\\FitnessChatbot\\app.py', reloading
+2025-05-29 15:38:22,563 - INFO -  * Restarting with stat
+2025-05-29 15:38:30,847 - INFO - 127.0.0.1 - - [29/May/2025 15:38:30] "GET / HTTP/1.1" 200 -
+2025-05-29 15:38:30,860 - INFO - 127.0.0.1 - - [29/May/2025 15:38:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-29 15:38:31,085 - INFO - 127.0.0.1 - - [29/May/2025 15:38:31] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-05-29 15:38:34,145 - INFO - 127.0.0.1 - - [29/May/2025 15:38:34] "GET / HTTP/1.1" 200 -
+2025-05-29 15:38:34,156 - INFO - 127.0.0.1 - - [29/May/2025 15:38:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-29 15:38:34,408 - INFO - 127.0.0.1 - - [29/May/2025 15:38:34] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-06-09 21:03:26,023 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-09 21:03:26,023 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 21:04:12,979 - INFO - 127.0.0.1 - - [09/Jun/2025 21:04:12] "GET / HTTP/1.1" 200 -
+2025-06-09 21:04:13,023 - INFO - 127.0.0.1 - - [09/Jun/2025 21:04:13] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-09 21:04:13,172 - INFO - 127.0.0.1 - - [09/Jun/2025 21:04:13] "GET /static/chat.js HTTP/1.1" 200 -
+2025-06-09 21:04:13,538 - INFO - 127.0.0.1 - - [09/Jun/2025 21:04:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-09 21:05:07,353 - INFO - 127.0.0.1 - - [09/Jun/2025 21:05:07] "GET / HTTP/1.1" 200 -
+2025-06-09 21:05:07,397 - INFO - 127.0.0.1 - - [09/Jun/2025 21:05:07] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-09 21:05:07,588 - INFO - 127.0.0.1 - - [09/Jun/2025 21:05:07] "GET /static/chat.js HTTP/1.1" 200 -
+2025-06-09 21:05:07,950 - INFO - 127.0.0.1 - - [09/Jun/2025 21:05:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-09 21:05:26,581 - INFO - User message: Hi
+2025-06-09 21:05:26,600 - INFO - Bot response: Hi there!  What fitness or nutrition questions can I help you with today?<br>
+2025-06-09 21:05:26,602 - INFO - 127.0.0.1 - - [09/Jun/2025 21:05:26] "POST /chat HTTP/1.1" 200 -
+2025-06-15 14:01:26,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-15 14:01:26,489 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 14:02:13,353 - INFO - 127.0.0.1 - - [15/Jun/2025 14:02:13] "GET / HTTP/1.1" 200 -
+2025-06-15 14:02:13,425 - INFO - 127.0.0.1 - - [15/Jun/2025 14:02:13] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-15 14:02:13,571 - INFO - 127.0.0.1 - - [15/Jun/2025 14:02:13] "GET /static/chat.js HTTP/1.1" 200 -
+2025-06-15 14:02:14,377 - INFO - 127.0.0.1 - - [15/Jun/2025 14:02:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-15 14:02:26,262 - INFO - User message: keto diet
+2025-06-15 14:02:26,262 - INFO - Bot response: The ketogenic diet, or keto diet, is a very low-carbohydrate, high-fat diet.  It forces the body into a metabolic state called ketosis, where it begins to burn fat for energy instead of glucose (sugar from carbohydrates).  This can lead to weight loss, but it's crucial to understand the potential benefits and risks before starting.<br><br>Potential Benefits:<br><br> Weight loss:  Many people experience significant weight loss on the keto diet, primarily due to the reduction in carbohydrate intake and increased fat burning.<br> Improved blood sugar control:  The keto diet can be beneficial for individuals with type 2 diabetes by improving insulin sensitivity and blood sugar levels.  However, monitoring is crucial, and it shouldn't replace medical advice.<br> Reduced appetite:  Some people report feeling less hungry on keto due to the satiating nature of fats.<br> Potential benefits for certain neurological conditions:  Research suggests potential benefits for some neurological conditions like epilepsy, although more research is needed.<br><br><br>Potential Risks and Considerations:<br><br> Nutrient deficiencies:  Restricting entire food groups can lead to deficiencies in vitamins and minerals if not carefully planned.  Supplementation may be necessary.<br> "Keto flu":  Many experience initial side effects like headaches, fatigue, and nausea (the "keto flu") as the body adapts to ketosis.<br> Kidney stones:  Increased protein intake can increase the risk of kidney stones in susceptible individuals.<br> Constipation:  Reduced fiber intake is common on keto and can lead to constipation.<br> Long-term effects:  Long-term effects of the keto diet are still being studied.<br><br><br>Important Note: The keto diet is not suitable for everyone.  It's crucial to consult your doctor or a registered dietitian before starting, especially if you have any underlying health conditions, such as kidney disease, liver disease, or pancreatic issues.  They can help you determine if it's appropriate for you and help you plan a safe and effective approach.<br><br>To make the keto diet sustainable, focus on whole, unprocessed foods like healthy fats (avocado, olive oil, nuts, seeds), protein (meat, fish, eggs), and low-carbohydrate vegetables (leafy greens, broccoli, cauliflower).  Careful meal planning and tracking your macronutrients (carbohydrates, protein, and fat) are essential for success.  Remember to stay hydrated.<br>
+2025-06-15 14:02:26,263 - INFO - 127.0.0.1 - - [15/Jun/2025 14:02:26] "POST /chat HTTP/1.1" 200 -
+2025-06-15 14:05:08,268 - INFO - User message: best muscle building diet for a vegetarian
+2025-06-15 14:05:08,268 - INFO - Bot response: Building muscle on a vegetarian diet requires careful planning to ensure you're getting enough protein and all the essential nutrients.  It's entirely possible, but it demands more attention to detail than a diet including meat.<br><br>Here's a breakdown of a muscle-building vegetarian diet:<br><br>Prioritize Protein Sources:<br><br> Legumes: Lentils, chickpeas, beans (kidney, black, pinto, etc.) are excellent sources of plant-based protein and fiber.<br> Tofu and Tempeh:  Soy-based products are complete proteins, meaning they contain all nine essential amino acids.<br> Seitan:  Made from wheat gluten, seitan is a high-protein option.<br> Nuts and Seeds:  Almonds, cashews, chia seeds, flax seeds, pumpkin seeds, and sunflower seeds provide protein and healthy fats.<br> Greek Yogurt (if lacto-ovo vegetarian):  Provides a good amount of protein and calcium.<br> Eggs (if lacto-ovo vegetarian):  Excellent source of protein and essential nutrients.<br> Dairy (if lacto-vegetarian): Cheese, milk, and yogurt offer protein and calcium.<br><br><br>Focus on Carbohydrates for Energy:<br><br> Whole Grains: Brown rice, quinoa, oats, whole-wheat bread provide sustained energy for workouts.<br> Fruits and Vegetables:  Offer essential vitamins, minerals, and fiber.<br><br><br>Healthy Fats are Essential:<br><br> Avocado:  Healthy fats and fiber.<br> Nuts and Seeds:  As mentioned above, also provide healthy fats.<br> Olive Oil:  Use for cooking and dressings.<br><br><br>Meal Timing:<br><br> Pre-Workout:  A small meal or snack with carbohydrates and some protein to fuel your workout.<br> Post-Workout:  A meal or snack with protein and carbohydrates to aid muscle recovery and growth.  Aim for a higher protein intake post-workout.<br><br><br>Supplementation:<br><br> Creatine:  A popular supplement that can enhance strength and muscle growth.  It's not strictly necessary but can be beneficial.<br> Protein Powder (optional):  Vegetarian protein powders (pea, soy, brown rice, etc.) can help you reach your daily protein goals, especially convenient for shakes.  Choose a high-quality, reputable brand.<br> Vitamin B12:  Often deficient in vegetarian diets, so supplementation is often recommended.<br><br><br>Important Considerations:<br><br> Amino Acid Profile:  Plant-based proteins don't always contain all essential amino acids in the same ratios as animal proteins.  Combining different plant-based protein sources throughout the day ensures you get all the essential amino acids.<br> Caloric Surplus:  To build muscle, you need a caloric surplus – consuming more calories than you burn.  Track your calories and adjust your intake as needed.<br> Consistency:  A consistent workout routine and diet are crucial for muscle growth.<br><br><br>Disclaimer: This information is for general knowledge and should not be considered medical or dietary advice.  Consult a registered dietitian or a qualified healthcare professional for personalized dietary guidance, especially if you have any underlying health conditions. They can help you create a tailored plan to meet your individual needs and goals.<br>
+2025-06-15 14:05:08,286 - INFO - 127.0.0.1 - - [15/Jun/2025 14:05:08] "POST /chat HTTP/1.1" 200 -
+2025-06-27 15:36:13,970 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-27 15:36:13,970 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-27 15:36:26,136 - INFO - 127.0.0.1 - - [27/Jun/2025 15:36:26] "GET / HTTP/1.1" 200 -
+2025-06-27 15:36:26,210 - INFO - 127.0.0.1 - - [27/Jun/2025 15:36:26] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-27 15:36:26,381 - INFO - 127.0.0.1 - - [27/Jun/2025 15:36:26] "GET /static/chat.js HTTP/1.1" 200 -
+2025-06-27 15:36:27,329 - INFO - 127.0.0.1 - - [27/Jun/2025 15:36:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-27 15:41:04,258 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:04] "GET / HTTP/1.1" 200 -
+2025-06-27 15:41:04,281 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:04] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-27 15:41:04,500 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:04] "GET /static/chat.js HTTP/1.1" 200 -
+2025-06-27 15:41:07,205 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:07] "GET / HTTP/1.1" 200 -
+2025-06-27 15:41:07,216 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-27 15:41:07,455 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:07] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-06-27 15:41:14,259 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:14] "GET / HTTP/1.1" 200 -
+2025-06-27 15:41:14,286 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-27 15:41:14,507 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:14] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-06-27 15:41:21,261 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:21] "GET / HTTP/1.1" 200 -
+2025-06-27 15:41:21,274 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-27 15:41:21,519 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:21] "[36mGET /static/chat.js HTTP/1.1[0m" 304 -
+2025-06-27 15:41:48,239 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:48] "GET / HTTP/1.1" 200 -
+2025-06-27 15:41:48,250 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:48] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-27 15:41:48,506 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:48] "GET /static/chat.js HTTP/1.1" 200 -
+2025-06-27 15:41:54,539 - INFO - User message: hi
+2025-06-27 15:41:54,539 - INFO - Bot response: Hi there!  How can I help you achieve your fitness goals today?  Please ask me a question related to diet, exercise, or wellness.<br>
+2025-06-27 15:41:54,541 - INFO - 127.0.0.1 - - [27/Jun/2025 15:41:54] "POST /chat HTTP/1.1" 200 -

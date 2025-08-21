@@ -294,3 +294,22 @@
 2025-06-27 15:48:37,399 - INFO - 127.0.0.1 - - [27/Jun/2025 15:48:37] "GET / HTTP/1.1" 200 -
 2025-06-27 15:48:37,409 - INFO - 127.0.0.1 - - [27/Jun/2025 15:48:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2025-06-27 15:48:37,652 - INFO - 127.0.0.1 - - [27/Jun/2025 15:48:37] "GET /static/chat.js HTTP/1.1" 200 -
+2025-08-21 17:35:30,932 - ERROR - Error initializing Gemini model: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-08-21 17:35:47,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 17:35:47,605 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 17:36:28,870 - INFO - 127.0.0.1 - - [21/Aug/2025 17:36:28] "GET / HTTP/1.1" 200 -
+2025-08-21 17:36:28,950 - INFO - 127.0.0.1 - - [21/Aug/2025 17:36:28] "GET /static/style.css HTTP/1.1" 200 -
+2025-08-21 17:36:29,097 - INFO - 127.0.0.1 - - [21/Aug/2025 17:36:29] "GET /static/chat.js HTTP/1.1" 200 -
+2025-08-21 17:36:29,519 - INFO - 127.0.0.1 - - [21/Aug/2025 17:36:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-21 17:36:34,427 - INFO - User message: hi
+2025-08-21 17:36:34,427 - INFO - Bot response: Hi there!  How can I help you with your fitness or nutrition goals today?<br>
+2025-08-21 17:36:34,444 - INFO - 127.0.0.1 - - [21/Aug/2025 17:36:34] "POST /chat HTTP/1.1" 200 -
